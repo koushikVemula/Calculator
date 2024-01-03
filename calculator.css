@@ -1,0 +1,112 @@
+
+
+.outer
+{
+    width: 400px;
+    background-color: rgb(80, 79, 79);
+	border: 1px solid black;
+	margin: auto;
+    margin-top: 100px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#inner
+{
+    height: 120px;
+    background-color: grey;
+    color: white;
+    font-size: 2em;
+    text-align: right;
+    line-height: 5.3em;
+    border-radius:  50px 50px 0 0;
+    font-family: system-ui;
+    margin-bottom: 20px;
+    background-color: rgb(185, 182, 182);
+    color:rgb(80, 79, 79);
+}
+
+#result
+{
+    height: 100px;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+/* input
+{
+    width: 94.5%;
+    height: 100px;
+    padding: 0 10px;
+    overflow: hidden;
+    border-radius:  50px 50px 0 0;
+    background-color: grey;
+    color: white;
+    outline: none;
+    border: 1px solid grey;
+
+} */
+
+.row 
+{
+    margin: 1px auto;
+    text-align: center
+}
+td
+{
+    padding: 5px;
+}
+button
+{
+    background-color: rgb(104, 102, 102);
+    height: 80px;
+    width: 80px;
+    margin: 4px 1px; 
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%; 
+    outline: none;
+    font-size: 1.5em;
+}
+
+button:focus
+{
+    background-color:grey;
+}
+
+#zero
+{
+    height: 70px;
+    width: 168px;
+    border-radius:  50px 50px 50px 50px;
+}
+
+.row button:last-child
+{
+    background-color: orange;
+    font-size: 1.8em;
+}
+
+.row button:last-child:focus
+{
+ background-color: white;
+ color: orange;
+}
+
+
+.row:nth-child(2) button:not(:last-child)
+{
+    background-color: rgb(185, 182, 182);
+    color:rgb(80, 79, 79);
+}
+
+.row:nth-child(2) button:not(:last-child):focus
+{
+    background-color: rgb(218, 216, 216);
+}
